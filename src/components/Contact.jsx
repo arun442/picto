@@ -53,9 +53,7 @@ setFormData({
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-[#8B7355] mx-auto mb-6"></div>
-          <p className="text-[#B4AFA5] text-lg">
-            Have questions? We'd love to hear from you.
-          </p>
+        
         </div>
 
         <form className="space-y-6" onSubmit={handleSubmit}>

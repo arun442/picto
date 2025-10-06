@@ -25,8 +25,8 @@ export default function About() {
           
           <div className="relative h-[500px] rounded-lg overflow-hidden bg-[#E8E4DD]">
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-64 h-80 bg-[#8B7355] rounded-lg shadow-xl relative">
-                <div className="absolute inset-3 bg-[#2C2C2C] rounded"></div>
+              <div className="w-96   rounded-xl shadow-xl relative">
+             <img src='/aboutimg.jpg' alt='about-img' className='rounded-xl'/>
               </div>
             </div>
           </div>
