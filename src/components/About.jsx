@@ -23,7 +23,7 @@ export default function About() {
             </Link> */}
           </div>
           
-          <div className="relative h-[500px] rounded-lg overflow-hidden bg-[#E8E4DD]">
+          <div className="relative h-[490px] rounded-lg overflow-hidden bg-[#E8E4DD]">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-96   rounded-xl shadow-xl relative">
              <img src='/aboutimg.jpg' alt='about-img' className='rounded-xl'/>
