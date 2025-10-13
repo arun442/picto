@@ -46,8 +46,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/picto-black.png" alt="logo" width={60} height={60} />
-            <span className="text-xl font-serif text-[#2C2C2C]">Picto</span>
+            <Image src="/picto-black.png" alt="logo" width={80} height={80} />
           </Link>
 
           {/* Desktop Menu */}

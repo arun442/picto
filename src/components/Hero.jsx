@@ -43,13 +43,14 @@ export default function Hero() {
         
         <div className="relative h-[130px] md:h-[470px] flex w-[69%] mx-auto rounded-xl overflow-hidden bg-gradient-to-br from-[#E8E4DD] to-[#D4CFC5] group">
           {/* Images */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center h-full w-full">
+
             {images.map((img, index) => (
               <img
                 key={index}
                 src={img}
                 alt={`Slide ${index + 1}`}
-                className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ${
+                className={`absolute inset-0 w-full h-[100%]  transition-opacity duration-500 ${
                   index === currentIndex ? 'opacity-100' : 'opacity-0'
                 }`}
               />
